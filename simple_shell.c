@@ -5,7 +5,7 @@ int main(void){
     
     while(1){
         displayPrompt();
-        read_command(command, sizeof(command));
+        read_user_command(command, sizeof(command));
         execute_command(command);
     }
     
