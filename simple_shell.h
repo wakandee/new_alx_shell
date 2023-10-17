@@ -11,6 +11,6 @@ void print_output(const char *message);
 void read_user_command(char *command, size_t size);
 void execute_command(const char *command);
 void get_environment(void);
-void print_environment(void);
+void print_environment(const char **environment);
 
 #endif
